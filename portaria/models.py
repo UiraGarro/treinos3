@@ -6,7 +6,7 @@ class Usuario(AbstractUser):
         ('admin', 'administrador'),
         ('portaria', 'Porteiro'),
     )
-    id = models.models.models.AutoField(primary_key=True)
+    id = models.AutoField(primary_key=True)
     nome = models.CharField(max_length=100)
     email = models.EmailField()
     senha = models.CharField(max_length=100)
